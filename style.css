@@ -46,7 +46,7 @@ img {
   border: 1px solid red;
 }
 
-/*start editing for exercise below */
+
 .grid {
   grid-template-areas:
     "mudkip mudkip"
