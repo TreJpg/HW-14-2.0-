@@ -48,6 +48,7 @@ img {
 
 /*start editing for exercise below */
 .grid {
+  display: grid;
   grid-template-areas:
     "mudkip mudkip"
     "piplup piplup"
@@ -55,7 +56,6 @@ img {
     "torchic torchic";
 grid-template-columns: 200px 300px;
 grid-template-rows: 150px 200px 300px 200px; 
-justify-content: center;
 width: 600px;
 justify-content: end;
 align-items: stretch;
@@ -66,7 +66,7 @@ grid-auto-rows: 150px;
 
 .mudkip {
   grid-area: mudkip;
-  justify-content: end;
+  justify-self: end;
 }
 
 .piplup {
