@@ -71,15 +71,17 @@ grid-auto-rows: 150px;
 
 .piplup {
   grid-area: piplup;
+  justify-self: start;
 }
 
 .chimchar {
   grid-area: chimchar;
+  justify-self: center;
 }
 
 .cyndaquil {
   grid-area: cyndaquil;
-}
+ }
 
 .torchic {
   grid-area: torchic;
