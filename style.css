@@ -48,7 +48,6 @@ img {
 
 /*start editing for exercise below */
 .grid {
-  display: grid;
   grid-template-areas:
     "mudkip mudkip"
     "piplup piplup"
